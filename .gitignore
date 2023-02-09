@@ -1,7 +1,5 @@
-dmenu.o
+*.o
 dmenu
-config.def.h.orig
-dmenu.c.orig
+*.orig
 stest
-dmenu.1.orig
-dmenu.c.rej
+*.rej

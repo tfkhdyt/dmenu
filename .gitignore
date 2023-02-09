@@ -3,3 +3,5 @@ dmenu
 config.def.h.orig
 dmenu.c.orig
 stest
+dmenu.1.orig
+dmenu.c.rej

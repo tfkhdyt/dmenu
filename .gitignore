@@ -2,3 +2,4 @@ dmenu.o
 dmenu
 config.def.h.orig
 dmenu.c.orig
+stest

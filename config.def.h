@@ -7,15 +7,19 @@ static int min_width = 500;                    /* minimum width when centered */
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:size=10"
+  "JetBrainsMono Nerd Font:size=12:antialias=true:autohint=true",
+  "Noto Color Emoji:size=12:antialias=true:autohint=true",
+  "Noto Serif CJK JP:size=12:antialias=true:autohint=true",
+  "Noto Serif CJK KR:size=12:antialias=true:autohint=true",
+  "Noto Serif CJK SC:size=12:antialias=true:autohint=true",
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#bbbbbb", "#222222" },
-	[SchemeSel] = { "#eeeeee", "#005577" },
-	[SchemeSelHighlight] = { "#fab387", "#1e1e2e" },
-	[SchemeNormHighlight] = { "#fab387", "#1e1e2e" },
+	[SchemeNorm] = { "#cdd6f4", "#1e1e2e" },
+	[SchemeSel] = { "#1e1e1e", "#f38ba8" },
+	[SchemeSelHighlight] = { "#94e2d5", "#1e1e2e" },
+	[SchemeNormHighlight] = { "#94e2d5", "#1e1e2e" },
 	[SchemeOut] = { "#000000", "#00ffff" },
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
